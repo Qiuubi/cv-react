@@ -1,38 +1,206 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Comfortaa';
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(./assets/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: #061436;
+}
+
+p,
+li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  list-style: square;
+}
+
+li>span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin: 0 auto;
+  background-color: #1e3799;
+}
+
+#cv-name,
+h2,
+h3,
+h4,
+p,
+li,
+a {
+  color: rgb(149, 178, 250);
+}
+
+p:hover,
+li:hover,
+a:hover,
+.portfolio-title:hover {
+  color: rgb(167, 190, 249);
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 4px solid rgb(149, 178, 250);
+}
+
+h3 {
+  font-size: 1.7rem;
+  margin: 10px 0;
+}
+
+.nav-cv,
+.cv-react {
+  width: 80%;
+}
+
+.nav-cv {
+  padding: 5%;
+  border: 4px solid rgb(149, 178, 250);
+  margin-bottom: 20px;
+}
+
+.nav-cv,
+section {
+  background-color: #0f2b70;
+}
+
+section {
+  padding: 20px;
+}
+
+.cv-react,
+#cv-name,
+.nav-cv>h4,
+.portfolio-title,
+.cv-footer>ul {
+  display: flex;
+}
+
+.cv-react,
+#cv-name,
+.nav-cv>h4,
+.portfolio-title {
+  justify-content: center;
+}
+
+#cv-name,
+.projects-description {
+  font-weight: bold;
+}
+
+#cv-name {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+.projects-description {
+  font-size: 1.2rem;
+}
+
+.cv-aside,
+.cv-coordinates,
+.cv-skills,
+.cv-interests,
+.cv-portfolio {
+  background-color: #0c2461;
+}
+
+.cv-aside {
+  width: 30%;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+
+.portfolio-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 1s;
+}
+
+.portfolio-icon {
+  width: 50px;
+  margin-bottom: 25px;
+}
+
+.portfolio-icon>path {
+  fill: rgb(149, 178, 250);
+}
+
+.portfolio-icon>path:hover {
+  fill: rgb(167, 190, 249);
+}
+
+.cv-main {
+  width: 70%;
+}
+
+.container,
+.portfolio-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#cv-name,
+.nav-li {
+  list-style: none;
+}
+
+.nav-li>a {
+  margin: 0 10px;
+}
+
+#about>p,
+footer>p {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container,
+h2 {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cv-presentation-img {
+  width: 25%;
+  height: 150px;
+  margin: 0 10px;
+  background-color: #eeeeee;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cv-presentation-icon>a>i {
+  font-size: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.cv-footer {
+  padding: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cv-footer>ul {
+  margin-top: 20px;
+}
+
+.cv-footer>ul>li {
+  list-style: none;
 }
