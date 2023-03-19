@@ -1,17 +1,19 @@
 import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
-import Aside from './Aside';
+import Aside from './components/Aside';
+import Footer from './components/Footer';
+import dataApp from './components/datas/dataApp';
 
 function App() {
-  const { name, title } = { name: "Nguyen Quang", title: "Développeur Web" }
   return (
     <div className="App">
-      <Header className="App-header" name={name} title={title} />
+      <Header className="App-header" name={dataApp.headerName} title={dataApp.headerTitle} />
       <main className="cv-react">
         <Aside />
         <Main />
       </main>
+      <Footer links={dataApp.footerLinks} title={dataApp.footerFrameworkTitle} frameworkLink={dataApp.footerFrameworkLink} />
     </div >
   );
 }
