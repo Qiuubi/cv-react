@@ -4,11 +4,10 @@ Ce CV a été créé grâce à [Create React App](https://github.com/facebook/cr
 
 ## Available Scripts
 
-Utilisez npm install pour installer les modules nécessaires
+Lancez npm install dans le terminal pour installer les modules nécessaires à la racine du projet
 
-A la racine du projet, vous pouvez lancer :
+Ensuite, toujours à la racine du projet, vous pouvez lancer :
 
 ### `yarn start`
 
-Pour lancer l'application en mode développement.\
-Ouvrez [http://localhost:3000](http://localhost:3000) pour le voir dans le navigateur de votre choix.
+Pour lancer l'application en mode développement, ouvrez [http://localhost:3000](http://localhost:3000) pour le voir dans le navigateur de votre choix.
