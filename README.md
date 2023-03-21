@@ -4,6 +4,8 @@ Ce CV a été créé grâce à [Create React App](https://github.com/facebook/cr
 
 ## Available Scripts
 
+Utilisez npm install pour installer les modules nécessaires
+
 A la racine du projet, vous pouvez lancer :
 
 ### `yarn start`
