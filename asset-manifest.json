@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cv-react/static/css/main.6c7b5b09.css",
+    "main.js": "/cv-react/static/js/main.4b6a798c.js",
+    "static/js/787.5344719b.chunk.js": "/cv-react/static/js/787.5344719b.chunk.js",
+    "static/media/earpro.jpg": "/cv-react/static/media/earpro.a2dc765ef86191abb2fd.jpg",
+    "static/media/essence-des-notes.jpg": "/cv-react/static/media/essence-des-notes.aee7ba055a4547b42a6d.jpg",
+    "static/media/Comfortaa-VariableFont_wght.ttf": "/cv-react/static/media/Comfortaa-VariableFont_wght.4d2ab5de91c4d193a69f.ttf",
+    "static/media/white-leaf.jpg": "/cv-react/static/media/white-leaf.bbfcb276637be74c7e7b.jpg",
+    "index.html": "/cv-react/index.html",
+    "main.6c7b5b09.css.map": "/cv-react/static/css/main.6c7b5b09.css.map",
+    "main.4b6a798c.js.map": "/cv-react/static/js/main.4b6a798c.js.map",
+    "787.5344719b.chunk.js.map": "/cv-react/static/js/787.5344719b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c7b5b09.css",
+    "static/js/main.4b6a798c.js"
+  ]
+}
